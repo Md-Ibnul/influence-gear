@@ -77,12 +77,17 @@ ul {
   margin-top: 7rem;
 }
 .banner__img {
-  width: 100%;
   position: relative;
+}
+.circle> img{
+  width: 100%;
+}
+.main__camera> img{
+  width: 100%;
 }
 .main__camera {
   position: absolute;
-  top: 2rem;
+  top: 0;
   left: 0;
 }
 .banner__title {
@@ -247,6 +252,7 @@ ul {
     align-items: center;
     justify-content: center;
     text-align: center;
+    column-gap: 2rem;
   }
   .banner__title {
     font-size: 2.5rem;
